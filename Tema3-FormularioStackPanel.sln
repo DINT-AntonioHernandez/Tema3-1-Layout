@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema3-FormularioStackPanel", "Tema3-FormularioStackPanel\Tema3-FormularioStackPanel.csproj", "{D98C6F95-C6C8-49AB-B3A0-2361FD34D3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema3-equiposNba", "tema3-equiposNba\tema3-equiposNba.csproj", "{8D1414EF-12FF-4A48-98C1-CA2640201FCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D98C6F95-C6C8-49AB-B3A0-2361FD34D3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D98C6F95-C6C8-49AB-B3A0-2361FD34D3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D98C6F95-C6C8-49AB-B3A0-2361FD34D3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1414EF-12FF-4A48-98C1-CA2640201FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1414EF-12FF-4A48-98C1-CA2640201FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1414EF-12FF-4A48-98C1-CA2640201FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1414EF-12FF-4A48-98C1-CA2640201FCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
