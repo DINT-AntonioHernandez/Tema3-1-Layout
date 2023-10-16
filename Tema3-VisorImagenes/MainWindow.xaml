@@ -1,0 +1,41 @@
+﻿<Window x:Class="Tema3_VisorImagenes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_VisorImagenes"
+        mc:Ignorable="d"
+        Title="Visor de imagenes" MinHeight="600" Width="800">
+    <DockPanel LastChildFill="False">
+        <DockPanel DockPanel.Dock="Bottom" LastChildFill="False" Height="70" Background="#FF4FABBD" Margin="5">
+            <TextBlock TextWrapping="Wrap" Text="Nº Imagenes: 10" VerticalAlignment="Center" Width="auto " Background="#00000000" TextAlignment="Center" FontSize="16" Foreground="White" Margin="5,5,5,5"/>
+            <TextBlock DockPanel.Dock="Right" VerticalAlignment="Center" TextWrapping="Wrap" Text="Diseñado por Toni Hernández" Width="auto " Background="#00000000" FontSize="16" TextAlignment="Center" Foreground="White" Margin="5,5,5,5"/>
+        </DockPanel>
+        <Border DockPanel.Dock="Right" BorderBrush="Black" BorderThickness="1" Width="100" Margin="5" CornerRadius="5"  Background="#FF37AFBF">
+            <DockPanel LastChildFill="False">
+                <Button DockPanel.Dock="Top" Content="Añadir imagen" Width="NaN" Margin="3"/>
+                <Button DockPanel.Dock="Top" Content="Eliminar imagen" Width="NaN" Margin="3"/>
+                <Button DockPanel.Dock="Top" Content="Eliminar todas" Width="NaN" Margin="3"/>
+
+                <Button DockPanel.Dock="Bottom" Content="Recortar" Width="NaN" Margin="3"/>
+                <Button DockPanel.Dock="Bottom" Content="Rotar" Width="NaN" Margin="3"/>
+
+            </DockPanel>
+        </Border>
+        <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" TextAlignment="Center" Text="Visor de imágenes" Width="auto" FontSize="22"/>
+        
+        <WrapPanel DockPanel.Dock="Left" Width="auto" HorizontalAlignment="Center" Margin="10">
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+            <Image Height="200" Source="/Resources/episodioIV.jpg"/>
+        </WrapPanel>
+
+    </DockPanel>
+</Window>
