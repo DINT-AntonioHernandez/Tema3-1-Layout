@@ -63,6 +63,16 @@ namespace tema3_equiposNba.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
+        internal static byte[] _128 {
+            get {
+                object obj = ResourceManager.GetObject("128", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
         internal static byte[] _13_heat {
             get {
                 object obj = ResourceManager.GetObject("13_heat", resourceCulture);

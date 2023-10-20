@@ -6,9 +6,11 @@
     <RootNamespace>Tema3_estaciones</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\128.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\128.ico" />
     <None Remove="Resources\invierno.jpg" />
     <None Remove="Resources\otoño.jpg" />
     <None Remove="Resources\primavera.jpg" />
@@ -16,6 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Resources\128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\128.ico" />
     <Resource Include="Resources\invierno.jpg" />
     <Resource Include="Resources\otoño.jpg" />
     <Resource Include="Resources\primavera.jpg" />

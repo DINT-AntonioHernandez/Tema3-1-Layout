@@ -3,22 +3,24 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>Tema3_mosaico</RootNamespace>
+    <RootNamespace>Tema3_formulario</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Resources\32.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\48.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\32.ico" />
+    <None Remove="Resources\48.ico" />
+    <None Remove="Resources\foto.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resources\32.ico" />
+    <Content Include="Resources\48.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\32.ico" />
+    <Resource Include="Resources\48.ico" />
+    <Resource Include="Resources\foto.jpg" />
   </ItemGroup>
 
   <ItemGroup>

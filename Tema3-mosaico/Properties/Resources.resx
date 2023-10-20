@@ -118,37 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\128.ico;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="13_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\13_heat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="14_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14_heat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="14_lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14_lakers.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="22_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\22_heat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="23_lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\23_lakers.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="39_lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\39_lakers.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="3_lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3_lakers.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="7_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7_heat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="99_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\99_heat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="9_lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9_lakers.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32.ico;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

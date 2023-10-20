@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tema3_estaciones.Properties {
+namespace Tema3_mosaico.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Tema3_estaciones.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tema3_estaciones.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tema3_mosaico.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,49 +63,9 @@ namespace Tema3_estaciones.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] _128 {
+        internal static byte[] _32 {
             get {
-                object obj = ResourceManager.GetObject("128", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] invierno {
-            get {
-                object obj = ResourceManager.GetObject("invierno", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] otoño {
-            get {
-                object obj = ResourceManager.GetObject("otoño", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] primavera {
-            get {
-                object obj = ResourceManager.GetObject("primavera", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] verano {
-            get {
-                object obj = ResourceManager.GetObject("verano", resourceCulture);
+                object obj = ResourceManager.GetObject("32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
