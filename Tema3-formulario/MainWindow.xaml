@@ -10,24 +10,20 @@
     <DockPanel LastChildFill="False">
         <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Text="Formulario" Width="auto" FontSize="40" TextAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
 
-        <DockPanel DockPanel.Dock="Bottom" LastChildFill="False">
+        <DockPanel DockPanel.Dock="Bottom" LastChildFill="True">
             <TextBlock DockPanel.Dock="Left" TextWrapping="Wrap" Text="Toni Hernández" Width="auto" VerticalAlignment="Center" Margin="5" FontStyle="Italic" FontSize="20"/>
             <Button DockPanel.Dock="Right" Margin="5" Content="Cancelar" Width="100" Height="25"/>
             <Button DockPanel.Dock="Right" Margin="5" Content="Aceptar" Width="100"  Height="25"/>
             <Label Content="Label" Width="0"/>
         </DockPanel>
-        <Image DockPanel.Dock="Right" Height="300" Margin="10" Source="/Resources/foto.jpg"/>
+        
 
-        <Grid >
+        <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
+            <Image Grid.Column="1" Margin="10" Source="/Resources/foto.jpg"/>
             <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3" />
 
         </Grid>
