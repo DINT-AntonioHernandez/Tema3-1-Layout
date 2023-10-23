@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Formulario" Height="450" Width="800">
 
-    <DockPanel LastChildFill="False">
+    <DockPanel LastChildFill="True">
         <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Text="Formulario" Width="auto" FontSize="40" TextAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
 
         <DockPanel DockPanel.Dock="Bottom" LastChildFill="True">
@@ -16,16 +16,68 @@
             <Button DockPanel.Dock="Right" Margin="5" Content="Aceptar" Width="100"  Height="25"/>
             <Label Content="Label" Width="0"/>
         </DockPanel>
-        
+
 
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="1" Margin="10" Source="/Resources/foto.jpg"/>
-            <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3" />
+            <Image Grid.Column="1" Margin="10" Stretch="Fill" Source="/Resources/foto.jpg"/>
 
+            <StackPanel Grid.Column="0">
+                <Border  BorderBrush="Black" BorderThickness="3" CornerRadius="10" Background="#FF97F3FF" Margin="10,0,0,10" Padding="10,6,10,10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="68"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="35"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock TextAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0"  Text="Nombre"/>
+                        <TextBlock TextAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1"  Text="Edad"/>
+                        <TextBlock TextAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2"  Text="Dirección"/>
+
+                        <TextBox Grid.Column="1" Width="auto" Grid.Row="0" Margin="0,5,0,5"/>
+                        <TextBox Grid.Column="1" Width="auto" Grid.Row="1" Margin="0,5,0,5"/>
+                        <TextBox Grid.Column="1" Width="auto" Grid.Row="2" Margin="0,5,0,5"/>
+                    </Grid>
+                </Border>
+
+                <Border BorderBrush="Black" BorderThickness="3" CornerRadius="10" Background="#FFFFFEE5" Margin="10,10,0,10">
+                    <StackPanel Height="100" Orientation="Horizontal">
+                        <GroupBox Header="Aficiones">
+                            <StackPanel>
+                                <CheckBox Content="hacer deporte"/>
+                                <CheckBox Content="viajar"/>
+                                <CheckBox Content="leer"/>
+                                <CheckBox Content="ver series"/>
+                            </StackPanel>
+                        </GroupBox>
+                        
+                        <GroupBox Header="Estado civil">
+                            <StackPanel>
+                                <RadioButton Content="soltero"/>
+                                <RadioButton Content="casado"/>
+                                <RadioButton Content="divorciado"/>
+                                <RadioButton Content="viudo"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+
+
+                </Border>
+                
+            </StackPanel>
+
+
+
+  
         </Grid>
 
 
